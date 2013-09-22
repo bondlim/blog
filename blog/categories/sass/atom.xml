@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sass | My Blog]]></title>
+  <link href="http://bondlim.github.io//github/blog/categories/sass/atom.xml" rel="self"/>
+  <link href="http://bondlim.github.io//github/"/>
+  <updated>2013-09-22T02:45:18+00:00</updated>
+  <id>http://bondlim.github.io//github/</id>
+  <author>
+    <name><![CDATA[Bond Lim]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My First Blog]]></title>
+    <link href="http://bondlim.github.io//github/blog/2013/09/22/my-first-blog/"/>
+    <updated>2013-09-22T02:20:00+00:00</updated>
+    <id>http://bondlim.github.io//github/blog/2013/09/22/my-first-blog</id>
+    <content type="html"><![CDATA[<p>This is my very first blogging.</p>
+
+<p>I never thought of blogging before until recently which I want to create  a space to keep my findings, learning and most importantly to share to whoever that is interested.</p>
+
+<p>I am a gamer&hellip;.</p>
+
+<p>And I always want to create a game that belongs to me.</p>
+
+<p>Most probably, this blog will be more surrounding my game development journey.</p>
+]]></content>
+  </entry>
+  
+</feed>
