@@ -4,7 +4,7 @@
   <title><![CDATA[turtle's paradise]]></title>
   <link href="http://bondlim.github.io//github/atom.xml" rel="self"/>
   <link href="http://bondlim.github.io//github/"/>
-  <updated>2013-09-23T09:29:05+00:00</updated>
+  <updated>2013-09-23T15:08:07+00:00</updated>
   <id>http://bondlim.github.io//github/</id>
   <author>
     <name><![CDATA[Bond Lim]]></name>
@@ -14,13 +14,24 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Mac Book Pro: CMD + R]]></title>
+    <link href="http://bondlim.github.io//github/blog/2013/09/23/mac-book-pro-cmd-plus-r/"/>
+    <updated>2013-09-23T15:04:00+00:00</updated>
+    <id>http://bondlim.github.io//github/blog/2013/09/23/mac-book-pro-cmd-plus-r</id>
+    <content type="html"><![CDATA[<p>After sometime, I finally google up how to refresh browser on Mac Book.</p>
+
+<p>The answer is CMD + R, Oh yeahhhh!!!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Gitbucket vs. GitHub]]></title>
     <link href="http://bondlim.github.io//github/blog/2013/09/23/gitbucket-vs-github/"/>
     <updated>2013-09-23T09:21:00+00:00</updated>
     <id>http://bondlim.github.io//github/blog/2013/09/23/gitbucket-vs-github</id>
-    <content type="html"><![CDATA[<p>Just came across this article at the end of the day or work.</p>
+    <content type="html"><![CDATA[<p>Just came across this article at the end of the work.</p>
 
-<p>Sounds interesting on the comparision in service and pricing, which might be a good idea to look back when I want to host my source code in the future ( although I hosted personally for now &hellip;.).</p>
+<p>Sounds interesting on the comparison in service and pricing, which might be a good idea to look back when I want to host my source code in the future ( although I hosted personally for now &hellip;.).</p>
 
 <p>In summary that caught my eyes in the article,</p>
 
