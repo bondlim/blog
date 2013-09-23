@@ -4,7 +4,7 @@
   <title><![CDATA[turtle's paradise]]></title>
   <link href="http://bondlim.github.io//github/atom.xml" rel="self"/>
   <link href="http://bondlim.github.io//github/"/>
-  <updated>2013-09-23T07:13:10+00:00</updated>
+  <updated>2013-09-23T08:04:34+00:00</updated>
   <id>http://bondlim.github.io//github/</id>
   <author>
     <name><![CDATA[Bond Lim]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Speed up with base64 images]]></title>
+    <link href="http://bondlim.github.io//github/blog/2013/09/23/speed-with-base64-images/"/>
+    <updated>2013-09-23T07:29:00+00:00</updated>
+    <id>http://bondlim.github.io//github/blog/2013/09/23/speed-with-base64-images</id>
+    <content type="html"><![CDATA[<p>A very challenging task in web-based game is to get the images download to the player browser client.</p>
+
+<p>As we all know that, using either CSS background-image with URL, JavaScript Image object or HTML <code>&lt;img&gt;</code> tag requires the browser client to initiate new HTTP call for every image download.</p>
+
+<p>Why is this a bad idea?</p>
+
+<p>Every new initiated HTTP call download perform the standard TCP connection and that is heavy, especially in mobile environement as it utilized more processing power.</p>
+
+<p>Besides that, it is much much slower that you can imagine.</p>
+
+<p>Lastly, the request for image download does choke up your websever.</p>
+
+<p>Following is an image showing the number of connections and time spent.</p>
+
+<p><img src="http://bondlim.github.io//github/images/image_using_http_protocol.png" title="Image download with normal HTTP request" alt="alt text" /></p>
+
+<p><strong>Base64 Image</strong></p>
+
+<p>Base64 image is where you encode the image into base64 value and use the base64 value directly, either in CSS or HTML <code>&lt;img&gt;</code> tag.</p>
+
+<p>Eg.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;img src"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABACAYAAADs39J0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QkGBxEhUPC9NwAABIJJREFUeNrtnE1LG0EYx5/EUMEiCmKhIAU9qBRsTKuyIGhOooceeug3sGkbPfXsC238BmLa6EV6KnjowYPiSXtaYjSmOfhCVSgeSlIhoVhISUgPcdfNZic7uzu7O7uZPwTXycxknV/+zzPPGPUAIcUXAmVwiXbipzC3/ddjx2v7gAkAAE4ur6i4DyqBNL/4iNWv8PWtq2AAAHhpBIKz0KRgCOrv7mJAWMhyEJB6DnCrO6h3iNLCk4ZBm1jIYkBY/nDVtlf6nBvDl9dJMIz0dYI7qAOiZ4GNQqFph0VtyDIrT0gXnzZnNBQQYfFphSCV4RPNMoBrTnln/f6atpVUClJJnthr+AOcxzQgboKBghNaj5kyPwqMl8HAcwpppZJ8OZXky0RyCArGGcdBL8+7BoxZ7pCDMeSQejCcJLX7tQKG4V2WWpgi5Q75YpF2XT0Ys36/LTCEnOIjBUP6g6otoFo/owDUQifqOTNgrK59Ju8QHBhaF1HPouMC15vIcWFoXWSidYiW3ZSZSd1sGDA6amtOW4lG1UOWHIY09poR19Xm1PKauPdKAwyskFXPGUo/oNFdFmnAOPPRBgMZskgUfbTXJLTBEEKW18wKXItrzjhOl8v0jJn1++HJ9DSVbxSvGgy9oaiX57EdYiTcaXUhzTCqcgjKGVaEHbMKP/m8tMMQgbjtoFAJsBNgAAB43Xxq6zQYikndjXIKDAAAn0e9Wi/Hlpeh0fTwYr2mLZMrQOnpa6JjdDlkyGFH6yS0eDBW0/agvRmaDmNEx2BX6igoiduEOcRx4jUutIQs2SqNkc6P+1xCIYlL+yR07uIWD8bg/bNvNQucOYwh3/V6xqhW6vKQdbC/T/07GgekXN+Pj5Hzfdq4EK/lC4wKRfXGZHIFAAAkFGSl7lQNcZxpoVVrKPK1DUDkx0xNf5zw5fpdVsJg0elrGxChZHKFqkc9FfNpzWM05ZBGVTGfFqGsnFfa3rzswR4f+/0Oivk09hhLgJQ2Q6p9Ti6v4Gf2RtO8U5E98+uCtgEo5tOaISpdUwMER/3dXdDfrR+OmQ6xtDDUM+jP/ivVPq3Da5rnlX729lHnffHaDjhawpKRMcQcEgwfwW50sOorAMBudBCy1zloRQ18jJ7zXktTBcCvUnV7xx2cfyc34GbpBiKFIHwvqLOj3dBNBbnKnw3s8sY/rS4vYF0LRA5BUPY6VwlZBG4uyHURgdIQDpG6Qw5JgEJT0UiiJqE+ZMnzCUpNz1fvtsDnIUMusWKra6eIVOr1YJCQkFMaQYaABMNH4qNeGKMFihN+jUA0qZvtFOYQHUVh9joHPZMbbGWtcAgKhnRXxWBYCAR1HNLK1pGuXRYTJUmdNpU2Q7ATP61qk9cttB+leN0EAwBgYqQPJkb6xPat+XHmELs08iFZ07Y02cKA2AUjvhCoarv9h8gwFWFJ3XIpwWAOYSGLAUGFLMEhLGTZpKXJFhGCdOur5BCaDxld45CpyB5szY+r1iF2SPiYKDEgz4aHySXfLwFD47Xey9w2uv9MOGz6AmvVf/IjGeCBSc7aAAAAAElFTkSuQmCC" /&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This remove a HTTP call for above case and the image is ready at the same time when the HTML page is downloaded.</p>
+
+<p><img src="http://bondlim.github.io//github/images/image_using_base64.png" title="Image download with base64" alt="alt text" /></p>
+
+<p>Comparing to the HTTP request example above, the page is ready in &frac12; of the time spent.</p>
+
+<p>By the way, how do the shops look? I drew myself for my game. ^_^</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My First Blog]]></title>
