@@ -23,15 +23,21 @@
         <lastmod>2013-09-24T02:37:41+00:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://bondlim.github.io//github/blog/2013/09/24/image-styling-with-css-and-jquery/
+        </loc>
+        <lastmod>2013-09-24T14:53:17+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://bondlim.github.io//github/robots.txt</loc>
         <lastmod>2013-09-22T03:40:45+00:00</lastmod>
     </url>
     <url>
         <loc>http://bondlim.github.io//github/blog/archives/</loc>
-        <lastmod>2013-09-24T02:37:41+00:00</lastmod>
+        <lastmod>2013-09-24T14:53:17+00:00</lastmod>
     </url>
     <url>
         <loc>http://bondlim.github.io//github/</loc>
-        <lastmod>2013-09-24T02:37:41+00:00</lastmod>
+        <lastmod>2013-09-24T14:53:17+00:00</lastmod>
     </url>
 </urlset>

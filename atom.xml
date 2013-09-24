@@ -4,7 +4,7 @@
   <title><![CDATA[turtle's paradise]]></title>
   <link href="http://bondlim.github.io//github/atom.xml" rel="self"/>
   <link href="http://bondlim.github.io//github/"/>
-  <updated>2013-09-24T02:39:39+00:00</updated>
+  <updated>2013-09-24T14:54:24+00:00</updated>
   <id>http://bondlim.github.io//github/</id>
   <author>
     <name><![CDATA[Bond Lim]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Image Styling with CSS and Jquery]]></title>
+    <link href="http://bondlim.github.io//github/blog/2013/09/24/image-styling-with-css-and-jquery/"/>
+    <updated>2013-09-24T14:51:00+00:00</updated>
+    <id>http://bondlim.github.io//github/blog/2013/09/24/image-styling-with-css-and-jquery</id>
+    <content type="html"><![CDATA[<p>This might came to handy for web based game ^_^</p>
+
+<p><a href="http://www.1stwebdesigner.com/design/image-styling-coding-tutorials/">Link to the tutorial</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Monster set of FREE resources for game design]]></title>
