@@ -4,7 +4,7 @@
   <title><![CDATA[turtle's paradise]]></title>
   <link href="http://bondlim.github.io//github/atom.xml" rel="self"/>
   <link href="http://bondlim.github.io//github/"/>
-  <updated>2013-09-25T04:06:48+00:00</updated>
+  <updated>2013-10-09T07:07:06+00:00</updated>
   <id>http://bondlim.github.io//github/</id>
   <author>
     <name><![CDATA[Bond Lim]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Save as root in vim]]></title>
+    <link href="http://bondlim.github.io//github/blog/2013/10/09/save-as-root-in-vim/"/>
+    <updated>2013-10-09T07:04:00+00:00</updated>
+    <id>http://bondlim.github.io//github/blog/2013/10/09/save-as-root-in-vim</id>
+    <content type="html"><![CDATA[<p>Its been a while, as I am busy drawing for my game :P</p>
+
+<p>This is handy when you forgot to do sudo vim</p>
+
+<p>:w !sudo tee %</p>
+
+<p>:w &ndash; Write a file.
+!sudo &ndash; Call shell sudo command.
+tee &ndash; The output of write (vim :w) command redirected using tee. The % is nothing but current file name i.e. /etc/apache2/conf.d/mediawiki.conf. In other words tee command is run as root and it takes standard input and write it to a file represented by %. However, this will prompt to reload file again (hit L to load changes in vim itself):</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Am I "Cloud"]]></title>
