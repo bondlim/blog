@@ -4,7 +4,7 @@
   <title><![CDATA[turtle's paradise]]></title>
   <link href="http://bondlim.github.io//github/atom.xml" rel="self"/>
   <link href="http://bondlim.github.io//github/"/>
-  <updated>2013-10-16T07:29:22+00:00</updated>
+  <updated>2013-10-16T07:38:20+00:00</updated>
   <id>http://bondlim.github.io//github/</id>
   <author>
     <name><![CDATA[Bond Lim]]></name>
@@ -20,14 +20,18 @@
     <id>http://bondlim.github.io//github/blog/2013/10/16/javascript-for-better-game</id>
     <content type="html"><![CDATA[<p>Looking into JS framework that is good for game design</p>
 
-<p>Interesting JS Canvas framework
-<a href="http://kineticjs.com/">Kinetic</a></p>
+<p>Interesting JS Canvas framework</p>
 
-<p>Good framework for performance, cut down JS code and manipulate objects in JS
-<a href="http://lodash.com/">lodash</a></p>
+<p><a href="http://kineticjs.com/">Kinetic</a></p>
 
-<p>Good Audio player
-<a href="http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library">howler</a></p>
+<p>Good framework for performance, cut down JS code and manipulate objects in JS</p>
+
+<p><a href="http://lodash.com/">lodash</a></p>
+
+<p>Good Audio player</p>
+
+<p><a href="http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library">howler</a>
+<a href="http://www.schillmania.com/projects/soundmanager2/">soundmanager2</a></p>
 ]]></content>
   </entry>
   
