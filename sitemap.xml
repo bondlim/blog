@@ -47,15 +47,21 @@
         <lastmod>2013-10-23T07:49:35+00:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://bondlim.github.io//github/blog/2014/03/08/10-things-you-need-to-know-when-using-mongodb/
+        </loc>
+        <lastmod>2014-03-08T01:45:36+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://bondlim.github.io//github/robots.txt</loc>
         <lastmod>2013-09-22T03:40:45+00:00</lastmod>
     </url>
     <url>
         <loc>http://bondlim.github.io//github/blog/archives/</loc>
-        <lastmod>2013-10-23T07:49:35+00:00</lastmod>
+        <lastmod>2014-03-08T01:45:36+00:00</lastmod>
     </url>
     <url>
         <loc>http://bondlim.github.io//github/</loc>
-        <lastmod>2013-10-23T07:49:35+00:00</lastmod>
+        <lastmod>2014-03-08T01:45:36+00:00</lastmod>
     </url>
 </urlset>

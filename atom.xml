@@ -4,7 +4,7 @@
   <title><![CDATA[turtle's paradise]]></title>
   <link href="http://bondlim.github.io//github/atom.xml" rel="self"/>
   <link href="http://bondlim.github.io//github/"/>
-  <updated>2013-10-23T07:50:39+00:00</updated>
+  <updated>2014-03-08T01:47:06+00:00</updated>
   <id>http://bondlim.github.io//github/</id>
   <author>
     <name><![CDATA[Bond Lim]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[10 things you need to know when using MongoDB]]></title>
+    <link href="http://bondlim.github.io//github/blog/2014/03/08/10-things-you-need-to-know-when-using-mongodb/"/>
+    <updated>2014-03-08T01:43:00+00:00</updated>
+    <id>http://bondlim.github.io//github/blog/2014/03/08/10-things-you-need-to-know-when-using-mongodb</id>
+    <content type="html"><![CDATA[<p>Found this good article which I believe all MongoDB developers or even DBA should be aware of.</p>
+
+<p><a href="http://highscalability.com/blog/2014/3/5/10-things-you-should-know-about-running-mongodb-at-scale.html">http://highscalability.com/blog/2014/3/5/10-things-you-should-know-about-running-mongodb-at-scale.html</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Numbers that a programmer should know]]></title>
